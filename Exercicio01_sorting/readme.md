@@ -3,20 +3,20 @@
 ## 📚 Disciplina
 
 Estrutura de Dados e Complexidade de Algoritmos
-Universidade Federal da Paraíba (UFPB)
+UFPB
 
 ---
 
 ## 🎯 Objetivo
 
-Implementar e testar os algoritmos de ordenação por comparação:
+Implementar e comparar os algoritmos:
 
 * Selection Sort
 * Insertion Sort
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura
 
 ```
 sorting/
@@ -24,25 +24,15 @@ sorting/
 ├── main.py
 ├── selection_sort.py
 ├── insertion_sort.py
-└── data/
+├── data/
+└── resultados.txt
 ```
 
 ---
 
-## ▶️ Como Executar
+## ▶️ Execução
 
-Execute o programa via linha de comando informando:
-
-* o arquivo de entrada (.in)
-* o algoritmo desejado
-
-### Sintaxe:
-
-```
-python main.py <arquivo> <algoritmo>
-```
-
-### Exemplos:
+### 🔹 Executar um arquivo específico
 
 ```
 python main.py data/num.1000.2.in selection
@@ -51,55 +41,82 @@ python main.py data/num.1000.2.in insertion
 
 ---
 
-## 📄 Formato dos Arquivos de Entrada
+### 🔹 Executar todos os testes
 
-Os arquivos `.in` seguem o padrão:
+```
+python main.py all
+```
+
+Executa:
+
+* todos os arquivos da pasta `data`
+* com os dois algoritmos
+
+---
+
+### 🔹 Executar apenas Selection Sort
+
+```
+python main.py selection_all
+```
+
+---
+
+### 🔹 Executar apenas Insertion Sort
+
+```
+python main.py insertion_all
+```
+
+---
+
+### 🔹 Limpar arquivo de resultados
+
+```
+python main.py clear
+```
+
+---
+
+## 📄 Formato dos arquivos `.in`
 
 ```
 n
 valor1
 valor2
-valor3
 ...
 ```
 
-Onde:
-
-* A primeira linha (`n`) indica a quantidade de elementos
-* As linhas seguintes representam os valores do vetor
+* `n`: quantidade de elementos
+* restante: valores do vetor
 
 ---
 
-## ⚙️ Algoritmos Implementados
+## 📊 Saída
 
-### 🔹 Selection Sort
+### Terminal:
 
-* Complexidade: O(n²)
-* Não depende da ordem inicial dos dados
+* tamanho da entrada
+* tempo de execução
+* primeiros 10 elementos ordenados
 
-### 🔹 Insertion Sort
+### Arquivo `resultados.txt`:
 
-* Melhor caso: O(n)
-* Pior caso: O(n²)
-* Mais eficiente para listas quase ordenadas
+```
+arquivo | algoritmo | tempo
+--------------------------------
+num.1000.2.in | selection | 0.002341
+num.1000.2.in | insertion | 0.001287
+```
 
 ---
 
-## 📊 Saída do Programa
+## ⚙️ Complexidade
 
-O programa exibe:
-
-* Tamanho da entrada
-* Tempo de execução
-* Primeiros 10 elementos ordenados
-
-Exemplo:
-
-```
-Tamanho da entrada: 1000
-Tempo: 0.002345 segundos
-Primeiros 10 elementos ordenados: [-50, -49, -48, ...]
-```
+| Algoritmo      | Complexidade |
+| -------------- | ------------ |
+| Selection Sort | O(n²)        |
+| Insertion Sort | O(n) a O(n²) |
 
 ---
 
