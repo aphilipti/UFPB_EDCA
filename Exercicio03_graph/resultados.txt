@@ -1,0 +1,12 @@
+dij10.txt | prim | 7072 | 7072 | OK | 0.000025
+dij10.txt | kruskal | 7072 | 7072 | OK | 0.000040
+dij10.txt | dijkstra | 5183 | 5183 | OK | 0.000024
+dij20.txt | prim | 15238 | 15238 | OK | 0.000058
+dij20.txt | kruskal | 15238 | 15238 | OK | 0.000237
+dij20.txt | dijkstra | 3190 | 3190 | OK | 0.000197
+dij40.txt | prim | 26615 | 26615 | OK | 0.000181
+dij40.txt | kruskal | 26615 | 26615 | OK | 0.000813
+dij40.txt | dijkstra | 8928 | 8928 | OK | 0.000216
+dij50.txt | prim | 30424 | 30424 | OK | 0.000414
+dij50.txt | kruskal | 30424 | 30424 | OK | 0.000484
+dij50.txt | dijkstra | 6764 | 6764 | OK | 0.001137
