@@ -1,0 +1,26 @@
+arquivo | algoritmo | tempo
+--------------------------------
+num.1000.1.in | merge | 0.000999
+num.1000.1.in | quick | 0.001000
+num.1000.2.in | merge | 0.000999
+num.1000.2.in | quick | 0.001000
+num.1000.3.in | merge | 0.001447
+num.1000.3.in | quick | 0.001005
+num.1000.4.in | merge | 0.001390
+num.1000.4.in | quick | 0.001382
+num.10000.1.in | merge | 0.011590
+num.10000.1.in | quick | 0.012290
+num.10000.2.in | merge | 0.011122
+num.10000.2.in | quick | 0.013213
+num.10000.3.in | merge | 0.011601
+num.10000.3.in | quick | 0.012668
+num.10000.4.in | merge | 0.014016
+num.10000.4.in | quick | 0.013611
+num.100000.1.in | merge | 0.137715
+num.100000.1.in | quick | 0.513228
+num.100000.2.in | merge | 0.138210
+num.100000.2.in | quick | 0.571665
+num.100000.3.in | merge | 0.142132
+num.100000.3.in | quick | 0.526111
+num.100000.4.in | merge | 0.142026
+num.100000.4.in | quick | 0.507993
